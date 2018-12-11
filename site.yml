@@ -1,0 +1,9 @@
+---
+- hosts: postgres
+  sudo: yes
+  vars:
+    db_user: test
+    db_password: 0okm9ijn
+    database: test
+  roles:
+    - postgresql
