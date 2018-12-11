@@ -1,5 +1,5 @@
 ---
-- hosts: postgres
+- hosts: all
   sudo: yes
   vars:
     db_user: test
